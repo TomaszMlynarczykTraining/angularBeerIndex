@@ -4,12 +4,12 @@
       <ul class="header__list">
 
         <li class="header__item">
-     Home
+     <a mat-button [routerLink]="['/']">Home </a>
         </li>
 
         <li class="header__item">
-         Not home
-            </li>
+          <a mat-button [routerLink]="['/', 'login']">Login</a>          
+          </li>
       </ul>
     </nav>
 </header>

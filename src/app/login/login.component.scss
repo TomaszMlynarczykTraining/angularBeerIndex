@@ -1,0 +1,23 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__form{
+        flex: 0 1 600px;
+    }
+    height: 100vh;
+    background-color: gold
+}
+
+.form{
+    width: 100%;
+
+    &__input {
+        width: 100%;
+
+        &:not(last-of-type){
+            margin-bottom: 20px;
+        }
+    }
+}
